@@ -1,0 +1,25 @@
+.jumbotron {
+  margin: 50px;
+}
+
+#footer {
+  margin: 0px;
+}
+
+.profilepic {
+  border-style: solid;
+}
+
+/* need to change this in BS css, it's the "About Me" in the about me section and it's too big */
+.display-4 {
+  font-size: 22;
+}
+
+/* need to find a way to wrap text and keep it in-line */
+.aboutme {
+  font-size: 18px;
+}
+
+#footer {
+  text-align: center;
+}
