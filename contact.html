@@ -13,10 +13,10 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/style/bootstrap.min.css" />
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
 
-    <title>Alison Lubar - Portfolio</title>
+    <title>Alison Lubar - Contact</title>
   </head>
 
   <body>
@@ -24,7 +24,7 @@
       class="navbar navbar-expand-lg navbar-light"
       style="background-color: #e3f2fd"
     >
-      <a class="navbar-brand" href="#">Alison Lubar</a>
+      <a class="navbar-brand" href="./index.html">Alison Lubar</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -39,11 +39,13 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" class="navRight" href="#"
+          <a class="nav-link active" class="navRight" href="./contact.html"
             >Contact <span class="sr-only">(current)</span></a
           >
-          <a class="nav-link" class="navRight" href="#">Portfolio</a>
-          <a class="nav-link" class="navRight" href="#">About</a>
+          <a class="nav-link" class="navRight" href="./portfolio.html"
+            >Portfolio</a
+          >
+          <a class="nav-link" class="navRight" href="./index.html">About</a>
         </div>
       </div>
     </nav>
@@ -52,6 +54,36 @@
       <div class="jumbotron">
         <h1 class="display-4">Contact</h1>
         <hr class="my-4" />
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              placeholder="Type your message to Alison here."
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
 
