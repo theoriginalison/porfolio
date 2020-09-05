@@ -4,7 +4,7 @@ body {
   background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 }
 
-/* trying to right-align these parts of the nav bar */
+/* trying to right-align these parts of the nav bar - NEEDS FIXING*/
 .collapse .navbar-collapse {
   justify-content: right;
 }
@@ -27,11 +27,11 @@ body {
 }
 
 .display-4 {
-  font-size: 22;
+  font-size: 5vw;
 }
 
 .aboutme {
-  font-size: 18px;
+  font-size: 3vmin;
   text-align: justify;
 }
 
@@ -43,11 +43,13 @@ body {
 /* contact.html ONLY */
 
 .form-group {
-  font-size: 18px;
+  font-size: 3vmin;
 }
 
 /* portfolio.html ONLY */
 
 .portPlaceholder {
   margin: 15px;
+  max-width: 80%;
+  max-height: 80%;
 }
