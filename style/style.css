@@ -39,6 +39,14 @@ body {
   margin-bottom: 0px;
 }
 
+.socialMedia {
+  font-size: 3vw;
+}
+
+.smLinks {
+  line-height: 1.75;
+}
+
 /* contact.html ONLY */
 
 .form-group {
