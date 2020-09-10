@@ -1,6 +1,8 @@
 # porfolio
 Originally created for Week 2 HW [photo & link after this]
 
+
+
 ## Table of Contents
 
 _[Approach](#approach)
@@ -18,6 +20,7 @@ _[Discoveries](#discoveries)
 - To replicate the portfolio.html images as closely as possible, I used Placeholder.com to find 350px grey image squares. I put these in rows, then columns, to mirror the sample photo.
 - I use a form from Bootstrap to create the box for contact.html. I also made sure to match the type to the purpose of each box. I also added "Type your message to Alison here." as the grey text for the message box, to be a little more personal.
 - I grouped all CSS by common elements (since I stared with the index.html, and many elements were standard across all three pages, this maked this most sense). Then, I added comments to indicate where each page had CSS that was only relevant to that page.
+- I checked everything using W3's HTML Validator. It saw my image placeholders in portfolio.html as needing alt tags, which I added. I would rather add more alt tags than not.
 
 ## Problems & Solutions
 - Text in About Me wouldn't wrap around the picture; one line would start, and then the rest of the text appeared below the picture. I fixed this by putting the image directly in the <p> tag and added float:left to the CSS, just for the picture.
@@ -28,3 +31,4 @@ _[Discoveries](#discoveries)
 ## Discoveries
 - Viewport Units are a font-size value that can be used to easily scale to the viewport, making scaling much easier
 - Linking files within a folder is made easier when you can directly select them; in other words, the files or folders should pop up in VS Code as you're tying the route
+- Using <input> for the placeholder doesn't wrap text inside (like in context.html, and the default info in the form), but <textarea> does! It keeps the text in the boxes responsive. The text withIN the placeholder isn't responsive, but Tani said that it was ok.
