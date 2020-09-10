@@ -1,16 +1,25 @@
 # porfolio
-Originally created for Week 2 HW [photo & link after this]
 
+Originally created for Week 2 HW
 
+index.html (linked from both "Alison Lubar" and "About Me")
+![Screenshot of the "About Me" / "Alison Lubar" page featuring a picture of Alison along with her bio"]()
+
+contact.html (linked from "Contact")
+![Screenshot of the "Contact" page featuring a box to enter name, email address, and a message to Alison.]()
+
+portfolio.html (linked from "Portfolio")
+![Screenshot of the "Portfolio" page showing grey placeholders where projects will soon be listed!]()
 
 ## Table of Contents
 
 _[Approach](#approach)
-_[Problems & Solutions](#changes) 
-_[Discoveries](#discoveries)
+_[Problems & Solutions](#changes)
+\_[Discoveries](#discoveries)
 
 ## Approach & Process
-- I began by making the index.html, since I notice that the containers across all three pages looked similar; this way, I could use index.html as a template, and style it exactly as I wanted it, and THEN replicate that for contact.html and portfolio.html. Jumbotron seemed the closest. 
+
+- I began by making the index.html, since I notice that the containers across all three pages looked similar; this way, I could use index.html as a template, and style it exactly as I wanted it, and THEN replicate that for contact.html and portfolio.html. Jumbotron seemed the closest.
 - I used bootstrap's navbar, and created a footer that matched it in color by using the same hex name. It was right up against the navbar, so I added a margin.
 - I perused Bootswatch and found "Lux." I didn't want to be too bougie, so I kept the nav and footer light-colored.
 - I added a background image that's one of my favorite pictures (or at least, one in that subject). I found this on Pexels (free stock photos), and credited the source in the footer, with my copyright. I added this to the background using CSS.
@@ -23,12 +32,14 @@ _[Discoveries](#discoveries)
 - I checked everything using W3's HTML Validator. It saw my image placeholders in portfolio.html as needing alt tags, which I added. I would rather add more alt tags than not.
 
 ## Problems & Solutions
+
 - Text in About Me wouldn't wrap around the picture; one line would start, and then the rest of the text appeared below the picture. I fixed this by putting the image directly in the <p> tag and added float:left to the CSS, just for the picture.
 - About Me text was jagged on the right side, and I wanted a cleaner look. I used text-align: justify so all lines would be the same length.
 - Set zero margin for the footer so it would be flush against the bottom of the page-- I set the bottom margin to zero to fix that.
 - I spelled the name of my repo incorrectly at first! It was "porfolio," which was highly embarassing (English teacher here!). So, after pushing all of my changes, I renamed the repo on GitHub, and then pulled from the renamed repo to make sure I had the most current versions. In office hours, I double checked that this was fine, and Anthony suggested that I just create a new location on my computer with the proper name (which I did).
 
 ## Discoveries
+
 - Viewport Units are a font-size value that can be used to easily scale to the viewport, making scaling much easier
 - Linking files within a folder is made easier when you can directly select them; in other words, the files or folders should pop up in VS Code as you're tying the route
 - Using <input> for the placeholder doesn't wrap text inside (like in context.html, and the default info in the form), but <textarea> does! It keeps the text in the boxes responsive. The text withIN the placeholder isn't responsive, but Tani said that it was ok.
