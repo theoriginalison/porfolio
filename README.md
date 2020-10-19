@@ -5,13 +5,13 @@ Originally created for Week 2 HW
 [LINK TO PAGE](https://theoriginalison.github.io/portfolio/)
 
 index.html (linked from both "Alison Lubar" and "About Me")
-![Screenshot of the "About Me" / "Alison Lubar" page featuring a picture of Alison along with her bio"](/ReadMeImages.AboutMe.png)
+![Screenshot of the "About Me" / "Alison Lubar" page featuring a picture of Alison along with her bio"](./ReadMeImages.AboutMe.png)
 
 contact.html (linked from "Contact")
-![Screenshot of the "Contact" page featuring a box to enter name, email address, and a message to Alison.](/ReadMeImages.Contact.png)
+![Screenshot of the "Contact" page featuring a box to enter name, email address, and a message to Alison.](./ReadMeImages.Contact.png)
 
 portfolio.html (linked from "Portfolio")
-![Screenshot of the "Portfolio" page showing grey placeholders where projects will soon be listed!](/ReadMeImages.Portfolio.png)
+![Screenshot of the "Portfolio" page showing grey placeholders where projects will soon be listed!](./ReadMeImages.Portfolio.png)
 
 ## Table of Contents
 
