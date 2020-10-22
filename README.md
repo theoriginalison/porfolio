@@ -13,13 +13,13 @@ A responsive profile page that includes links to projects, contact information, 
 ## Screenshots
 
 index.html (linked from both "Alison Lubar" and "About Me")
-![Screenshot of the "About Me" / "Alison Lubar" page featuring a picture of Alison along with her bio"](ReadMeImages.AboutMe.png)
+![Screenshot of the "About Me" / "Alison Lubar" page featuring a picture of Alison along with her bio"](./ReadMeImages/AboutMe.png)
 
 contact.html (linked from "Contact")
-![Screenshot of the "Contact" page featuring a box to enter name, email address, and a message to Alison.](ReadMeImages.Contact.png)
+![Screenshot of the "Contact" page featuring a box to enter name, email address, and a message to Alison.](./ReadMeImages/Contact.png)
 
 portfolio.html (linked from "Portfolio")
-![Screenshot of the "Portfolio" page showing four recent projects](ReadMeImages.Portfolio.png)
+![Screenshot of the "Portfolio" page showing four recent projects](./ReadMeImages/Portfolio.png)
 
 ## Features for Further Development
 - Links to CV
